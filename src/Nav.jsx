@@ -21,9 +21,9 @@ class Nav extends Component   {
       <li>  <HashLink className='tap' smooth to="/">Home</HashLink></li> 
       <li>  <HashLink className='tap' smooth to="latest">Latest Builds</HashLink></li> 
       <li>  <HashLink className='tap' smooth to="contact" >Contact Us</HashLink></li>
-      <li>  <HashLink className='tap' smooth to="process" >Process</HashLink></li>
-      <li>  <HashLink className='tap' smooth to="services">Services</HashLink> </li>
-      <li>  <HashLink className='tap' smooth to="projects" >Projects</HashLink></li>
+      <li>  <HashLink className='tap' smooth to="#" >Process</HashLink></li>
+      <li>  <HashLink className='tap' smooth to="#">Services</HashLink> </li>
+      <li>  <HashLink className='tap' smooth to="#" >Projects</HashLink></li>
         </ul>
         <div className='mobile'>
           <i id='bar' onClick={this.handleClick} 
