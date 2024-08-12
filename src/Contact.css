@@ -1,0 +1,86 @@
+.title{
+    margin: auto;
+    width: fit-content;
+    margin-top: 50vh;
+    margin-bottom: 10vh ;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.my-info span{
+    color: #00ADB5;
+    font-weight: bolder;
+}
+.data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.data input,.last textarea{
+    width: 95%;
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: #00ADB5 1px solid;
+}
+.last textarea{
+    width: 200%;
+}
+.data span, .last span{
+    color: rgb(255, 81, 0);
+}
+.required{
+    display: flex;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.data ::placeholder,.last ::placeholder{
+    color: #EEEEEE;
+
+}
+.last button{
+    width: 150px;
+    height:30px;
+    background-color: #00ADB5;
+    border-radius: 10px;
+    border: #00ADB5 1px solid;
+    
+}
+.sub{
+    margin-top: 20px;
+    margin-bottom: 30vh;
+}
+.data input:focus-visible,.last textarea:focus-visible{
+    outline: none;
+}
+.text-uppercase.fw-bold.mb-4 {
+    color: #00ADB5 !important;
+}
+.signature{
+    font-weight: bolder;
+    color: #00ADB5;
+    font-size: 20px;
+}
+@media (max-width:992px){
+.my-info h4{
+    font-size: 20px;
+}
+}
+@media (max-width: 576px){
+    .my-info h4{
+        font-size: 15px;
+    }
+}
+@media (max-width: 390px){
+    .my-info h4{
+        font-size: 13px;
+    }
+}

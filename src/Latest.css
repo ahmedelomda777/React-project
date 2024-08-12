@@ -1,0 +1,41 @@
+.cards{
+    margin-top: 50vh;
+}
+.cards h2{
+    margin-bottom: 30px;
+}
+.card.mystyle{
+
+    background-color: transparent;
+    color: #EEEEEE;
+    margin-bottom: 50px;
+    max-width: 288px;
+}
+.card-title{
+    width: 300px;
+}
+.card.mystyle a{
+    color: #00ADB5;
+    text-decoration: none;
+}
+.swiper-pagination-bullet{
+    width: 15px !important;
+    height: 15px !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #00ADB5;
+}
+@media (max-width:768px) {
+    .card-title{
+        font-size: 16px  ;
+    }
+    .card.mystyle p{ 
+    max-height: 127px;
+    overflow-y: hidden;
+    font-size: 13px;
+    }
+    .swiper-pagination-bullet{
+        width: 12px !important;
+        height: 12px !important;
+    }
+}
